@@ -63,3 +63,4 @@ Bayam (5000), Wortel (7000), Kentang (9000), Selada (12000), Brokoli (15000)
 Program berhasil mengurutkan harga sayur secara ascending atau dari nilai terkecil ke terbesar.
 
 E. Link YouTube: 
+https://youtu.be/yzkdFpOijH8?si=fU0f_yzigYVJmCtk

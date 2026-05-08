@@ -25,11 +25,8 @@ def main():
             print("Input tidak valid, silakan masukkan angka!")
     counter, first_index, last_index = sequential_search(data, n, target) 
     if counter > 0: 
-        print(
-            f"Kode buku {target} dipinjam sebanyak {counter} kali, "
-            f"pertama ditemukan pada indeks ke-{first_index} "
-            f"dan terakhir ditemukan pada indeks ke-{last_index}."
-        )
+        print(f"Kode buku {target} dipinjam sebanyak {counter} kali, " f"pertama ditemukan pada indeks ke-{first_index} " f"dan terakhir ditemukan pada indeks ke-{last_index}."
+        )")
     else: 
         print(f"Kode buku {target} tidak ditemukan.")
 

@@ -46,7 +46,7 @@ D. Output Program:
 Penjelasan output source code tersebut :  
 Program tersebut digunakan untuk mencari kode buku yang dipinjam dengan metode Sequential Search atau pencarian berurutan. Pada output pada gambar Data yang dicek adalah: [210, 315, 210, 400, 210, 512, 315, 210, 200, 400, 512]. Program akan mengecek data satu per satu dari awal hingga akhir, user memasukkan kode buku 210. Setelah proses pencarian selesai, program menampilkan bahwa kode buku 210 dipinjam sebanyak 4 kali. Selain itu, program juga menunjukkan bahwa data pertama kali ditemukan pada indeks ke-0 dan terakhir ditemukan pada indeks ke-7. Hal ini berarti angka 210 muncul di beberapa posisi dalam daftar data, yaitu pada indeks 0, 2, 4, dan 7. Dengan demikian, program berhasil menghitung jumlah kemunculan data sekaligus mengetahui posisi awal dan posisi akhir data yang dicari. 
 
-E. Link YouTube : 
+E. Link YouTube : https://youtu.be/gp9OMJsH0eQ?si=-gFTrhEJ8yl7oc8c
 
 
 

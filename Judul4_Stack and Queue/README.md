@@ -120,6 +120,6 @@ Pilih 6 (Kosongkan Rak): Semua barang berhasil dikosongkan, Program reset top_id
 Pilih 7 (Keluar): Program selesai, Program langsung berhenti while loop berhenti karena kondisi pilih != 7 sudah tidak terpenuhi.
 
 
-E. Link YouTube : 
+E. Link YouTube : https://youtu.be/WAErs5cR6Rg?si=TdHipEiEmlBrI0Ew
 
 

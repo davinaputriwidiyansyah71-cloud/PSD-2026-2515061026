@@ -1,46 +1,46 @@
 class Node:
     def __init__(self,key):
         self.key=key
-        self.left=None # untuk me
+        self.left=None
         self.right=None
 
 class BSTKlinik:
     def __init__(self):
-        self.root=None # root dari pohon yang mana kosong pada awalnya
+        self.root=None 
 
     def insert_node(self,root,key):
-        if root is None: # jika root kosong, buat node baru dengan key yang diberikan
-            return Node(key) # mengembalikan node baru sebagai root
-        if key<root.key: # jika key yang akan dimasukkan lebih kecil dari key root, masukkan ke subtree kiri
-            root.left=self.insert_node(root.left,key) # rekursif memanggil insert_node pada subtree kiri dan mengupdate root.left dengan hasilnya
-        elif key>root.key: # jika key yang akan dimasukkan lebih besar dari key root, masukkan ke subtree kanan
-            root.right=self.insert_node(root.right,key) # rekursif memanggil insert_node pada subtree kanan dan mengupdate root.right dengan hasilnya
-        return root # mengembalikan root yang sudah diperbarui setelah penambahan node baru
+        if root is None: 
+            return Node(key) 
+        if key<root.key: 
+            root.left=self.insert_node(root.left,key) 
+        elif key>root.key: 
+            root.right=self.insert_node(root.right,key) 
+        return root 
 
-    def insert(self,key): # fungsi untuk menambahkan node baru dengan key yang diberikan ke dalam pohon
-        self.root=self.insert_node(self.root,key) # memanggil insert_node dengan root saat ini dan key yang akan dimasukkan, lalu mengupdate root dengan hasilnya
-
+    def insert(self,key): 
+        self.root=self.insert_node(self.root,key) 
+        
     def find_min_node(self,root):
         current=root 
-        while current is not None and current.left is not None: # selama current tidak kosong dan masih memiliki anak kiri, terus bergerak ke kiri
-            current=current.left # update current ke anak kiri
+        while current is not None and current.left is not None: 
+            current=current.left 
         return current 
 
     def inorder(self,root): 
-        if root is None: # jika root kosong, tidak ada yang perlu ditampilkan
+        if root is None: 
             return 
-        self.inorder(root.left) # memanggil inorder pada subtree kiri
-        print(root.key,end=" ") # menampilkan key dari node saat ini
-        self.inorder(root.right) # memanggil inorder pada subtree kanan
+        self.inorder(root.left) 
+        print(root.key,end=" ") 
+        self.inorder(root.right) 
 
     def delete_node(self,root,key): 
         if root is None:
             return None
-        if key<root.key: # jika key yang akan dihapus lebih kecil dari key root, cari di subtree kiri
+        if key<root.key:
             root.left=self.delete_node(root.left,key) 
-        elif key>root.key: # jika key yang akan dihapus lebih besar dari key root, cari di subtree kanan
+        elif key>root.key: 
             root.right=self.delete_node(root.right,key)
-        else: # jika key ditemukan
+        else: 
             if root.left is None and root.right is None:
                 return None
             elif root.left is None:

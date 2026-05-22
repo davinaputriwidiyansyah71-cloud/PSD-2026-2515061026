@@ -188,6 +188,6 @@ D. Output Program:
 Penjelasan output source code tersebut :  
 Berdasarkan hasil percobaan, saya melakukan pengelolaan data ruang ICU menggunakan struktur Binary Search Tree (BST) dengan memasukkan delapan nomor ruang melalui Menu 1, yaitu 15, 42, 8, 27, 63, 11, 35, dan 50, yang berhasil tersimpan ke dalam sistem. Selanjutnya, pada Menu 2, program berhasil menemukan ruang cadangan yang lebih besar dari 42, yaitu 50 (successor), sedangkan pada Menu 3 ditemukan ruang cadangan yang lebih kecil dari 27, yaitu 15 (predecessor). Setelah itu, melalui Menu 4, saya menghapus ruang 15 sehingga sistem otomatis menyesuaikan susunan data agar tetap teratur. Pada Menu 5, seluruh data ruang yang tersisa ditampilkan secara urut, yaitu 8, 11, 27, 35, 42, 50, dan 63. Terakhir, Menu 6 digunakan untuk mengakhiri program. Dari hasil tersebut, BST membantu pengelolaan data menjadi lebih terstruktur karena proses pencarian, penghapusan, dan penyusunan data dapat dilakukan secara otomatis.
 
-E. Link YouTube : 
+E. Link YouTube : https://youtu.be/8vry7x0kRp4?si=McQDXzv0qan7bGio
 
 

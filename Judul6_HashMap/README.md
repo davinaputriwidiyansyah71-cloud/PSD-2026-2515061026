@@ -97,5 +97,5 @@ Selanjutnya lagu "Sial" dengan key 21 dihapus dari Hash Map. Karena data berada 
  
 Setelah proses penghapusan selesai, hash table ditampilkan kembali. Slot 1 sudah berubah menjadi NONE karena lagu "Sial" berhasil dihapus. Sementara itu, data pada slot 6 dan slot 9 tetap sama karena tidak terpengaruh oleh proses penghapusan.
 
-E. Link Youtube : 
+E. Link Youtube : https://youtu.be/uVywuWaCdio?si=H4oHOqMnygUzSEdk
 

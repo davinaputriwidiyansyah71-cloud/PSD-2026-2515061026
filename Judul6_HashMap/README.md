@@ -88,6 +88,7 @@ Penjelasan Kode Program Perbarisnya :
 79.	Menjalankan fungsi main.
 
 D.    Output Program:
+<img width="1366" height="720" alt="Screenshot 2026-06-07 122219" src="https://github.com/user-attachments/assets/d2c08f4b-32a1-4388-a3c2-6a57e8ceb5e1" />
 Saat program dijalankan, sistem memasukkan empat data lagu ke dalam Hash Map. Lagu "Hati-Hati di Jalan" disimpan slot 9, lagu "Sial" slot 1, dan lagu "Komang" slot 6. Ketika lagu "Monokrom" dimasukkan, terjadi collision karena memiliki indeks yang sama dengan "Komang", yaitu slot 6. Untuk mengatasi collision tersebut, program menggunakan metode Separate Chaining. Data "Monokrom" disimpan di depan linked list pada slot 6, sedangkan "Komang" berada setelahnya. Karena itu, pada slot 6 terlihat dua data yang saling terhubung dalam satu rantai.
  
 Setelah semua lagu dimasukkan, hash table menampilkan data yang tersimpan. Slot 1 berisi lagu "Sial", slot 6 berisi "Monokrom" dan "Komang", serta slot 9 berisi "Hati-Hati di Jalan". Slot lainnya masih kosong dan ditampilkan sebagai NONE.
